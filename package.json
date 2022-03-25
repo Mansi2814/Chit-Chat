@@ -4,17 +4,25 @@
   "description": "Real time chat app with rooms",
   "main": "server.js",
   "scripts": {
-    "start": "node server" ,
+    "start": "node server",
     "dev": "nodemon server"
   },
   "author": "Ishika Gupta",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.29.1",
-    "socket.io": "^4.3.1"
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.14"
-  }
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mansi2814/Chit-Chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mansi2814/Chit-Chat/issues"
+  },
+  "homepage": "https://github.com/Mansi2814/Chit-Chat#readme"
 }
